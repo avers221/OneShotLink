@@ -1,0 +1,219 @@
+2025-08-05 00:57:13,547 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-05 00:57:13,549 INFO supervisord started with pid 1
+2025-08-05 00:57:14,555 INFO spawned: 'php-fpm' with pid 7
+2025-08-05 00:57:14,563 INFO spawned: 'queue' with pid 8
+2025-08-05 00:57:14,565 INFO spawned: 'scheduler' with pid 9
+2025-08-05 00:57:14,684 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:57:14,705 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:15,710 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-05 00:57:15,711 INFO spawned: 'queue' with pid 16
+2025-08-05 00:57:15,713 INFO spawned: 'scheduler' with pid 17
+2025-08-05 00:57:15,824 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:57:15,854 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:17,865 INFO spawned: 'queue' with pid 22
+2025-08-05 00:57:17,866 INFO spawned: 'scheduler' with pid 23
+2025-08-05 00:57:17,973 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:57:17,998 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:21,011 INFO spawned: 'queue' with pid 28
+2025-08-05 00:57:21,012 INFO spawned: 'scheduler' with pid 29
+2025-08-05 00:57:21,118 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:57:21,128 INFO gave up: scheduler entered FATAL state, too many start retries too quickly
+2025-08-05 00:57:22,146 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-05 00:57:22,146 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:23,152 INFO spawned: 'queue' with pid 34
+2025-08-05 00:57:23,279 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:24,286 INFO spawned: 'queue' with pid 37
+2025-08-05 00:57:24,415 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:26,427 INFO spawned: 'queue' with pid 40
+2025-08-05 00:57:26,555 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:28,565 WARN received SIGQUIT indicating exit request
+2025-08-05 00:57:28,565 INFO waiting for php-fpm, queue to die
+2025-08-05 00:57:31,584 INFO stopped: php-fpm (exit status 0)
+2025-08-05 00:57:39,381 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-05 00:57:39,382 INFO supervisord started with pid 1
+2025-08-05 00:57:40,387 INFO spawned: 'php-fpm' with pid 7
+2025-08-05 00:57:40,395 INFO spawned: 'queue' with pid 8
+2025-08-05 00:57:40,396 INFO spawned: 'scheduler' with pid 9
+2025-08-05 00:57:40,505 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:57:40,532 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:41,536 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-05 00:57:41,538 INFO spawned: 'queue' with pid 16
+2025-08-05 00:57:41,539 INFO spawned: 'scheduler' with pid 17
+2025-08-05 00:57:41,643 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:57:41,664 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:43,676 INFO spawned: 'queue' with pid 22
+2025-08-05 00:57:43,677 INFO spawned: 'scheduler' with pid 23
+2025-08-05 00:57:43,783 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:57:44,814 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-05 00:57:44,814 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:45,821 INFO spawned: 'queue' with pid 28
+2025-08-05 00:57:45,948 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:46,955 INFO spawned: 'queue' with pid 31
+2025-08-05 00:57:46,956 INFO spawned: 'scheduler' with pid 32
+2025-08-05 00:57:47,064 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:57:47,074 INFO gave up: scheduler entered FATAL state, too many start retries too quickly
+2025-08-05 00:57:47,087 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:49,098 INFO spawned: 'queue' with pid 37
+2025-08-05 00:57:49,228 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:52,245 INFO spawned: 'queue' with pid 40
+2025-08-05 00:57:52,374 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:57:53,379 INFO gave up: queue entered FATAL state, too many start retries too quickly
+2025-08-05 00:58:28,530 WARN received SIGQUIT indicating exit request
+2025-08-05 00:58:28,530 INFO waiting for php-fpm to die
+2025-08-05 00:58:31,550 INFO stopped: php-fpm (exit status 0)
+2025-08-05 00:58:54,647 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-05 00:58:54,648 INFO supervisord started with pid 1
+2025-08-05 00:58:55,654 INFO spawned: 'php-fpm' with pid 7
+2025-08-05 00:58:55,662 INFO spawned: 'queue' with pid 8
+2025-08-05 00:58:55,664 INFO spawned: 'scheduler' with pid 9
+2025-08-05 00:58:55,767 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:58:55,798 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:58:57,047 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-05 00:58:57,049 INFO spawned: 'queue' with pid 16
+2025-08-05 00:58:57,050 INFO spawned: 'scheduler' with pid 17
+2025-08-05 00:58:57,163 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:58:57,188 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:58:59,854 INFO spawned: 'queue' with pid 22
+2025-08-05 00:58:59,855 INFO spawned: 'scheduler' with pid 23
+2025-08-05 00:58:59,983 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:59:00,007 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:59:03,024 INFO spawned: 'queue' with pid 28
+2025-08-05 00:59:03,025 INFO spawned: 'scheduler' with pid 29
+2025-08-05 00:59:03,129 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 00:59:03,142 INFO gave up: scheduler entered FATAL state, too many start retries too quickly
+2025-08-05 00:59:04,158 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-05 00:59:04,158 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:59:05,162 INFO spawned: 'queue' with pid 34
+2025-08-05 00:59:05,291 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:59:06,297 INFO spawned: 'queue' with pid 37
+2025-08-05 00:59:06,430 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:59:08,439 INFO spawned: 'queue' with pid 40
+2025-08-05 00:59:08,569 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:59:11,585 INFO spawned: 'queue' with pid 43
+2025-08-05 00:59:11,713 WARN exited: queue (exit status 1; not expected)
+2025-08-05 00:59:12,718 INFO gave up: queue entered FATAL state, too many start retries too quickly
+2025-08-05 01:09:26,886 INFO reaped unknown pid 461 (terminated by SIGINT)
+2025-08-05 01:09:33,922 INFO reaped unknown pid 513 (exit status 0)
+2025-08-05 01:11:24,035 INFO reaped unknown pid 564 (exit status 0)
+2025-08-05 01:12:33,338 INFO reaped unknown pid 615 (exit status 0)
+2025-08-05 01:12:49,318 INFO reaped unknown pid 667 (exit status 0)
+2025-08-05 01:13:16,831 INFO reaped unknown pid 718 (exit status 0)
+2025-08-05 01:14:26,940 INFO reaped unknown pid 769 (exit status 0)
+2025-08-05 01:14:46,028 INFO reaped unknown pid 820 (terminated by SIGINT)
+2025-08-05 01:14:57,947 INFO reaped unknown pid 871 (exit status 0)
+2025-08-05 01:57:50,382 INFO reaped unknown pid 941 (exit status 0)
+2025-08-05 02:11:36,639 INFO reaped unknown pid 992 (exit status 0)
+2025-08-05 02:12:21,473 INFO reaped unknown pid 1044 (exit status 0)
+2025-08-05 02:12:35,392 INFO reaped unknown pid 1096 (exit status 0)
+2025-08-05 02:13:38,973 INFO reaped unknown pid 1148 (exit status 0)
+2025-08-05 03:56:01,604 WARN received SIGQUIT indicating exit request
+2025-08-05 03:56:01,620 INFO waiting for php-fpm to die
+2025-08-05 03:56:03,767 INFO stopped: php-fpm (exit status 0)
+2025-08-05 13:20:02,091 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-05 13:20:02,093 INFO supervisord started with pid 1
+2025-08-05 13:20:03,099 INFO spawned: 'php-fpm' with pid 7
+2025-08-05 13:20:03,101 INFO spawned: 'queue' with pid 8
+2025-08-05 13:20:03,103 INFO spawned: 'scheduler' with pid 9
+2025-08-05 13:20:03,537 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 13:20:04,541 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-05 13:20:04,542 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-05 13:20:04,543 INFO spawned: 'scheduler' with pid 18
+2025-08-05 13:20:04,653 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 13:20:06,665 INFO spawned: 'scheduler' with pid 21
+2025-08-05 13:20:06,770 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 13:20:09,786 INFO spawned: 'scheduler' with pid 24
+2025-08-05 13:20:09,899 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 13:20:10,904 INFO gave up: scheduler entered FATAL state, too many start retries too quickly
+2025-08-05 15:19:21,761 WARN received SIGQUIT indicating exit request
+2025-08-05 15:19:21,761 INFO waiting for php-fpm, queue to die
+2025-08-05 15:19:22,770 WARN stopped: queue (terminated by SIGTERM)
+2025-08-05 15:19:23,784 INFO stopped: php-fpm (exit status 0)
+2025-08-05 21:41:18,203 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-05 21:41:18,205 INFO supervisord started with pid 1
+2025-08-05 21:41:19,211 INFO spawned: 'php-fpm' with pid 7
+2025-08-05 21:41:19,216 INFO spawned: 'queue' with pid 8
+2025-08-05 21:41:19,220 INFO spawned: 'scheduler' with pid 9
+2025-08-05 21:41:19,625 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 21:41:20,631 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-05 21:41:20,631 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-05 21:41:20,632 INFO spawned: 'scheduler' with pid 18
+2025-08-05 21:41:20,732 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 21:41:22,744 INFO spawned: 'scheduler' with pid 21
+2025-08-05 21:41:22,847 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 21:41:25,863 INFO spawned: 'scheduler' with pid 24
+2025-08-05 21:41:25,977 WARN exited: scheduler (exit status 0; not expected)
+2025-08-05 21:41:26,982 INFO gave up: scheduler entered FATAL state, too many start retries too quickly
+2025-08-05 21:47:26,174 INFO reaped unknown pid 431 (exit status 0)
+2025-08-05 21:47:58,104 INFO reaped unknown pid 483 (exit status 0)
+2025-08-05 23:45:13,024 INFO reaped unknown pid 535 (exit status 0)
+2025-08-05 23:45:41,993 INFO reaped unknown pid 586 (exit status 0)
+2025-08-05 23:50:21,778 INFO reaped unknown pid 659 (exit status 0)
+2025-08-05 23:51:35,446 INFO reaped unknown pid 710 (exit status 0)
+2025-08-05 23:52:58,411 INFO reaped unknown pid 763 (exit status 0)
+2025-08-05 23:55:11,349 INFO reaped unknown pid 815 (exit status 0)
+2025-08-05 23:56:11,945 INFO reaped unknown pid 867 (exit status 0)
+2025-08-05 23:56:33,583 INFO reaped unknown pid 919 (exit status 0)
+2025-08-05 23:56:52,462 INFO reaped unknown pid 971 (exit status 0)
+2025-08-05 23:57:51,740 INFO reaped unknown pid 1023 (exit status 0)
+2025-08-05 23:58:13,836 INFO reaped unknown pid 1061 (exit status 0)
+2025-08-06 00:01:19,707 INFO reaped unknown pid 1113 (exit status 0)
+2025-08-06 00:02:13,940 INFO reaped unknown pid 1165 (exit status 0)
+2025-08-06 00:02:51,104 INFO reaped unknown pid 1217 (exit status 0)
+2025-08-06 00:04:44,352 INFO reaped unknown pid 1268 (exit status 0)
+2025-08-06 00:09:50,470 INFO reaped unknown pid 1320 (exit status 0)
+2025-08-06 00:11:20,669 INFO reaped unknown pid 1372 (exit status 0)
+2025-08-06 00:11:45,756 INFO reaped unknown pid 1424 (exit status 0)
+2025-08-06 00:12:30,543 INFO reaped unknown pid 1476 (exit status 0)
+2025-08-06 00:13:16,896 INFO reaped unknown pid 1528 (exit status 0)
+2025-08-06 00:14:26,110 INFO reaped unknown pid 1581 (exit status 0)
+2025-08-06 00:15:25,832 INFO reaped unknown pid 1633 (exit status 0)
+2025-08-06 00:15:40,340 INFO reaped unknown pid 1685 (exit status 0)
+2025-08-06 00:16:10,067 INFO reaped unknown pid 1736 (exit status 0)
+2025-08-06 00:16:33,402 INFO reaped unknown pid 1787 (exit status 0)
+2025-08-06 00:16:45,992 INFO reaped unknown pid 1838 (exit status 0)
+2025-08-06 00:17:01,228 INFO reaped unknown pid 1890 (exit status 0)
+2025-08-06 00:18:01,934 INFO reaped unknown pid 1942 (exit status 0)
+2025-08-06 00:19:20,628 INFO reaped unknown pid 1994 (exit status 0)
+2025-08-06 00:19:50,015 INFO reaped unknown pid 2046 (exit status 0)
+2025-08-06 00:35:17,601 INFO reaped unknown pid 2098 (exit status 0)
+2025-08-06 00:35:41,604 INFO reaped unknown pid 2149 (exit status 0)
+2025-08-06 00:36:20,859 INFO reaped unknown pid 2201 (exit status 0)
+2025-08-06 00:41:35,389 INFO reaped unknown pid 2253 (exit status 0)
+2025-08-06 00:42:03,137 INFO reaped unknown pid 2305 (exit status 0)
+2025-08-06 00:42:10,499 INFO reaped unknown pid 2357 (exit status 0)
+2025-08-06 00:43:01,296 INFO reaped unknown pid 2409 (exit status 0)
+2025-08-06 02:13:23,319 INFO reaped unknown pid 2489 (exit status 0)
+2025-08-06 02:17:57,921 INFO reaped unknown pid 2541 (exit status 0)
+2025-08-06 02:18:18,017 INFO reaped unknown pid 2592 (exit status 0)
+2025-08-06 02:29:14,633 INFO reaped unknown pid 2648 (exit status 0)
+2025-08-06 02:31:58,282 INFO reaped unknown pid 2699 (exit status 0)
+2025-08-06 02:46:33,853 WARN received SIGQUIT indicating exit request
+2025-08-06 02:46:33,882 INFO waiting for php-fpm, queue to die
+2025-08-06 02:46:34,915 WARN stopped: queue (terminated by SIGTERM)
+2025-08-06 02:46:34,996 INFO stopped: php-fpm (exit status 0)
+2025-08-07 14:53:59,863 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-07 14:53:59,866 INFO supervisord started with pid 1
+2025-08-07 14:54:00,872 INFO spawned: 'php-fpm' with pid 7
+2025-08-07 14:54:00,874 INFO spawned: 'queue' with pid 8
+2025-08-07 14:54:00,876 INFO spawned: 'scheduler' with pid 9
+2025-08-07 14:54:01,262 WARN exited: scheduler (exit status 0; not expected)
+2025-08-07 14:54:02,267 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 14:54:02,267 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 14:54:02,269 INFO spawned: 'scheduler' with pid 18
+2025-08-07 14:54:02,371 WARN exited: scheduler (exit status 0; not expected)
+2025-08-07 14:54:04,383 INFO spawned: 'scheduler' with pid 21
+2025-08-07 14:54:04,488 WARN exited: scheduler (exit status 0; not expected)
+2025-08-07 14:54:07,504 INFO spawned: 'scheduler' with pid 24
+2025-08-07 14:54:07,611 WARN exited: scheduler (exit status 0; not expected)
+2025-08-07 14:54:08,616 INFO gave up: scheduler entered FATAL state, too many start retries too quickly
+2025-08-07 15:11:27,629 INFO reaped unknown pid 420 (exit status 0)
+2025-08-07 15:28:54,532 INFO reaped unknown pid 476 (exit status 0)
+2025-08-07 15:30:30,547 INFO reaped unknown pid 527 (exit status 0)
+2025-08-07 15:30:51,895 INFO reaped unknown pid 579 (exit status 0)
+2025-08-07 15:31:26,666 INFO reaped unknown pid 631 (exit status 0)
+2025-08-07 15:34:11,457 INFO reaped unknown pid 683 (exit status 0)
+2025-08-07 15:34:43,900 INFO reaped unknown pid 734 (exit status 0)
+2025-08-07 16:00:25,773 WARN received SIGQUIT indicating exit request
+2025-08-07 16:00:25,774 INFO waiting for php-fpm, queue to die
+2025-08-07 16:00:26,779 WARN stopped: queue (terminated by SIGTERM)
+2025-08-07 16:00:27,793 INFO stopped: php-fpm (exit status 0)
